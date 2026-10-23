@@ -1,0 +1,3458 @@
+fileFormatVersion: 2
+guid: 76ca8e434fc2c9d4e937f974a73729a9
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'WalkingAnim' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'FatGuy_RootPart2_M' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'FatGuy_Spine1Part1_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'FatGuy_Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'FatGuy_NeckPart1_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'FatGuy_Scapula_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'FatGuy_ElbowPart1_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'FatGuy_Wrist_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'FatGuy_Scapula_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'FatGuy_ElbowPart1_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'FatGuy_Wrist_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'FatGuy_Hip_R'
+      has translation animation that will be discarded.\n\t'FatGuy_HipPart1_R' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'FatGuy_HipPart2_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'FatGuy_Hip_L'
+      has translation animation that will be discarded.\n\t'FatGuy_HipPart1_L' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'FatGuy_HipPart2_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: WalkingAnim
+      takeName: WalkingAnim
+      internalID: -5360099846205909134
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: FatGuy_Root_M
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_Hip_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_Hip_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_Knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_Knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_RootPart1_M
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_Spine1_M
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_Neck_M
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_NeckPart2_M
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_Scapula_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_Scapula_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_ShoulderPart1_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_ShoulderPart1_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_Elbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_Elbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_Wrist_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_Wrist_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_Toes_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_Toes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_Head_M
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_ThumbFinger1_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_ThumbFinger2_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_ThumbFinger3_L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_IndexFinger1_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_IndexFinger2_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_IndexFinger3_L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_MiddleFinger1_L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_MiddleFinger2_L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_MiddleFinger3_L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_RingFinger1_L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_RingFinger2_L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_RingFinger3_L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_PinkyFinger1_L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_PinkyFinger2_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_PinkyFinger3_L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_ThumbFinger1_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_ThumbFinger2_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_ThumbFinger3_R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_IndexFinger1_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_IndexFinger2_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_IndexFinger3_R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_MiddleFinger1_R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_MiddleFinger2_R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_MiddleFinger3_R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_RingFinger1_R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_RingFinger2_R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_RingFinger3_R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_PinkyFinger1_R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_PinkyFinger2_R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_PinkyFinger3_R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FatGuy_Spine1Part2_M
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: FBX_FatmanRig(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Group
+      parentName: FBX_FatmanRig(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_MotionSystem
+      parentName: Group
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKIKSystem
+      parentName: FatGuy_MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKIKParentConstraintArm_L
+      parentName: FatGuy_FKIKSystem
+      position: {x: -0.13185069, y: 1.08537, z: -0.050859645}
+      rotation: {x: 0.08682158, y: -0.69746673, z: 0.7083382, w: -0.06526256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKIKArm_L
+      parentName: FatGuy_FKIKParentConstraintArm_L
+      position: {x: 0.16338171, y: 0.077649795, z: 0.04040383}
+      rotation: {x: 0.08682158, y: -0.69746673, z: 0.7083382, w: 0.06526256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKIKParentConstraintArm_R
+      parentName: FatGuy_FKIKSystem
+      position: {x: 0.13185069, y: 1.08537, z: -0.050859645}
+      rotation: {x: 0.06526257, y: 0.7083382, z: 0.69746673, w: 0.08682158}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKIKArm_R
+      parentName: FatGuy_FKIKParentConstraintArm_R
+      position: {x: -0.16338171, y: -0.077649795, z: -0.04040383}
+      rotation: {x: 0.06526257, y: 0.7083382, z: 0.69746673, w: -0.08682158}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKIKParentConstraintLeg_L
+      parentName: FatGuy_FKIKSystem
+      position: {x: 6.717581e-17, y: 0.48091415, z: 0.09687309}
+      rotation: {x: 0.4779385, y: -0.5211284, z: -0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKIKLeg_L
+      parentName: FatGuy_FKIKParentConstraintLeg_L
+      position: {x: 0.057934254, y: -0.11232016, z: 0.25353593}
+      rotation: {x: -0.4779385, y: 0.5211284, z: 0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKIKParentConstraintLeg_R
+      parentName: FatGuy_FKIKSystem
+      position: {x: 6.717581e-17, y: 0.48091415, z: 0.09687309}
+      rotation: {x: 0.4779385, y: -0.5211284, z: -0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKIKLeg_R
+      parentName: FatGuy_FKIKParentConstraintLeg_R
+      position: {x: 0.057934254, y: -0.11232016, z: -0.25353593}
+      rotation: {x: -0.4779385, y: 0.5211284, z: 0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKIKParentConstraintSpine_M
+      parentName: FatGuy_FKIKSystem
+      position: {x: 6.717581e-17, y: 0.48091415, z: 0.09687309}
+      rotation: {x: 0.4779385, y: -0.5211284, z: -0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKIKSpine_M
+      parentName: FatGuy_FKIKParentConstraintSpine_M
+      position: {x: -0.0872598, y: 3.5527136e-17, z: 0.26745194}
+      rotation: {x: -0.4779385, y: 0.5211284, z: 0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKSystem
+      parentName: FatGuy_MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetRoot_M
+      parentName: FatGuy_FKSystem
+      position: {x: -1.5942199e-17, y: 0.48091415, z: 0.09687309}
+      rotation: {x: 0.4779385, y: -0.5211284, z: -0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraRoot_M
+      parentName: FatGuy_FKOffsetRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKRoot_M
+      parentName: FatGuy_FKExtraRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_InbetweenTargetRoot_M
+      parentName: FatGuy_FKRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXRoot_M
+      parentName: FatGuy_FKOffsetRoot_M
+      position: {x: 4.2632563e-16, y: 3.5527136e-17, z: -8.311801e-17}
+      rotation: {x: -5.551115e-17, y: 1.110223e-16, z: 4.1633363e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetRootPart1_M
+      parentName: FatGuy_FKXRoot_M
+      position: {x: -0.08285404, y: 1.7763568e-17, z: -1.9057679e-18}
+      rotation: {x: -5.551115e-17, y: 1.110223e-16, z: 4.8572257e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraRootPart1_M
+      parentName: FatGuy_FKOffsetRootPart1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKRootPart1_M
+      parentName: FatGuy_FKExtraRootPart1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXRootPart1_M
+      parentName: FatGuy_FKRootPart1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetRootPart2_M
+      parentName: FatGuy_FKXRootPart1_M
+      position: {x: -0.08285404, y: 1.7763568e-17, z: -2.0303059e-17}
+      rotation: {x: -5.551115e-17, y: 1.110223e-16, z: 4.8572257e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraRootPart2_M
+      parentName: FatGuy_FKOffsetRootPart2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKRootPart2_M
+      parentName: FatGuy_FKExtraRootPart2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXRootPart2_M
+      parentName: FatGuy_FKRootPart2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetSpine1_M
+      parentName: FatGuy_FKXRootPart2_M
+      position: {x: -0.08285404, y: -1.7763568e-17, z: -6.090918e-17}
+      rotation: {x: 0, y: 0, z: 0.15956557, w: 0.9871873}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraSpine1_M
+      parentName: FatGuy_FKOffsetSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKSpine1_M
+      parentName: FatGuy_FKExtraSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_InbetweenTargetSpine1_M
+      parentName: FatGuy_FKSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXSpine1_M
+      parentName: FatGuy_FKOffsetSpine1_M
+      position: {x: -0, y: 0, z: 5.5220264e-32}
+      rotation: {x: 1.4442269e-17, y: -1.130703e-17, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetSpine1Part1_M
+      parentName: FatGuy_FKXSpine1_M
+      position: {x: -0.10729253, y: 1.4210854e-16, z: -1.1847735e-17}
+      rotation: {x: 1.4442269e-17, y: -1.130703e-17, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraSpine1Part1_M
+      parentName: FatGuy_FKOffsetSpine1Part1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKSpine1Part1_M
+      parentName: FatGuy_FKExtraSpine1Part1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXSpine1Part1_M
+      parentName: FatGuy_FKSpine1Part1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetSpine1Part2_M
+      parentName: FatGuy_FKXSpine1Part1_M
+      position: {x: -0.10729253, y: -1.4210854e-16, z: -1.1847735e-17}
+      rotation: {x: 1.4442269e-17, y: -1.130703e-17, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraSpine1Part2_M
+      parentName: FatGuy_FKOffsetSpine1Part2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKSpine1Part2_M
+      parentName: FatGuy_FKExtraSpine1Part2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXSpine1Part2_M
+      parentName: FatGuy_FKSpine1Part2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetChest_M
+      parentName: FatGuy_FKXSpine1Part2_M
+      position: {x: -0.10729253, y: 0, z: -4.547501e-17}
+      rotation: {x: 0, y: -0, z: -0.15706262, w: 0.9875887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraChest_M
+      parentName: FatGuy_FKOffsetChest_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKChest_M
+      parentName: FatGuy_FKExtraChest_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXChest_M
+      parentName: FatGuy_FKChest_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_InbetweenBaseSpine1_M
+      parentName: FatGuy_FKOffsetSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_HipSwingReverse
+      parentName: FatGuy_FKOffsetRoot_M
+      position: {x: -0.24856213, y: 0, z: -8.311801e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_HipSwingReversePart2
+      parentName: FatGuy_HipSwingReverse
+      position: {x: 0.08285404, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_HipSwingReversePart1
+      parentName: FatGuy_HipSwingReversePart2
+      position: {x: 0.08285404, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_HipSwingReversePart0
+      parentName: FatGuy_HipSwingReversePart1
+      position: {x: 0.08285404, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_HipSwingReverseRoot
+      parentName: FatGuy_HipSwingReversePart0
+      position: {x: -7.105427e-17, y: 1.7763568e-17, z: 1.5777218e-32}
+      rotation: {x: 0, y: 3.3125995e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_InbetweenBaseRoot_M
+      parentName: FatGuy_FKOffsetRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKParentConstraintToChest_M
+      parentName: FatGuy_FKSystem
+      position: {x: 4.6551147e-16, y: 1.024145, z: -0.05196761}
+      rotation: {x: 0.47661594, y: -0.5223383, z: -0.47661594, w: 0.5223383}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetNeck_M
+      parentName: FatGuy_FKParentConstraintToChest_M
+      position: {x: -0.1115052, y: -1.7763568e-17, z: 3.4597286e-16}
+      rotation: {x: 0, y: 0, z: -0.2045841, w: 0.978849}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraNeck_M
+      parentName: FatGuy_FKOffsetNeck_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKNeck_M
+      parentName: FatGuy_FKExtraNeck_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_InbetweenTargetNeck_M
+      parentName: FatGuy_FKNeck_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXNeck_M
+      parentName: FatGuy_FKOffsetNeck_M
+      position: {x: -0, y: 7.105427e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetNeckPart1_M
+      parentName: FatGuy_FKXNeck_M
+      position: {x: -0.030891608, y: -1.4210854e-16, z: -5.863735e-18}
+      rotation: {x: -3.3420797e-17, y: 9.2435104e-17, z: 8.326673e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraNeckPart1_M
+      parentName: FatGuy_FKOffsetNeckPart1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKNeckPart1_M
+      parentName: FatGuy_FKExtraNeckPart1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXNeckPart1_M
+      parentName: FatGuy_FKNeckPart1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetNeckPart2_M
+      parentName: FatGuy_FKXNeckPart1_M
+      position: {x: -0.030891608, y: 1.4210854e-16, z: -5.863735e-18}
+      rotation: {x: -3.3420797e-17, y: 9.2435104e-17, z: 8.326673e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraNeckPart2_M
+      parentName: FatGuy_FKOffsetNeckPart2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKNeckPart2_M
+      parentName: FatGuy_FKExtraNeckPart2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXNeckPart2_M
+      parentName: FatGuy_FKNeckPart2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetHead_M
+      parentName: FatGuy_FKXNeckPart2_M
+      position: {x: -0.030891608, y: 1.4210854e-16, z: -1.5996535e-17}
+      rotation: {x: 0, y: 0, z: 0.15942685, w: 0.98720974}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKGlobalHead_M
+      parentName: FatGuy_FKOffsetHead_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraHead_M
+      parentName: FatGuy_FKGlobalHead_M
+      position: {x: -0, y: 0, z: -9.860761e-34}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKHead_M
+      parentName: FatGuy_FKExtraHead_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXHead_M
+      parentName: FatGuy_FKHead_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_InbetweenBaseNeck_M
+      parentName: FatGuy_FKOffsetNeck_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetScapula_L
+      parentName: FatGuy_FKParentConstraintToChest_M
+      position: {x: -0.060867846, y: 0.0066961795, z: 0.13185069}
+      rotation: {x: 0.7788713, y: -0.019416852, z: 0.62596047, w: 0.033999678}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraScapula_L
+      parentName: FatGuy_FKOffsetScapula_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKScapula_L
+      parentName: FatGuy_FKExtraScapula_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXScapula_L
+      parentName: FatGuy_FKScapula_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetShoulder_L
+      parentName: FatGuy_FKXScapula_L
+      position: {x: 0.08623822, y: 1.1990408e-16, z: -1.4210854e-16}
+      rotation: {x: 0.5189945, y: -0.30122545, z: 0.24301225, w: 0.7621371}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraShoulder_L
+      parentName: FatGuy_FKOffsetShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKShoulder_L
+      parentName: FatGuy_FKExtraShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXShoulder_L
+      parentName: FatGuy_FKShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetElbow_L
+      parentName: FatGuy_FKXShoulder_L
+      position: {x: 0.27677482, y: -4.2632563e-16, z: -2.842171e-16}
+      rotation: {x: 0, y: 0, z: -0.14138004, w: 0.9899554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraElbow_L
+      parentName: FatGuy_FKOffsetElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKElbow_L
+      parentName: FatGuy_FKExtraElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXElbow_L
+      parentName: FatGuy_FKElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetWrist_L
+      parentName: FatGuy_FKXElbow_L
+      position: {x: 0.23620212, y: 1.4210854e-16, z: 7.105427e-17}
+      rotation: {x: -0.5754469, y: 0.011152696, z: -0.08000434, w: 0.81384015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraWrist_L
+      parentName: FatGuy_FKOffsetWrist_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKWrist_L
+      parentName: FatGuy_FKExtraWrist_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXWrist_L
+      parentName: FatGuy_FKWrist_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetScapula_R
+      parentName: FatGuy_FKParentConstraintToChest_M
+      position: {x: -0.060867846, y: 0.0066961795, z: -0.13185069}
+      rotation: {x: -0.019416856, y: -0.7788713, z: -0.033999674, w: 0.62596047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraScapula_R
+      parentName: FatGuy_FKOffsetScapula_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKScapula_R
+      parentName: FatGuy_FKExtraScapula_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXScapula_R
+      parentName: FatGuy_FKScapula_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetShoulder_R
+      parentName: FatGuy_FKXScapula_R
+      position: {x: -0.08623822, y: 5.7731595e-17, z: 0}
+      rotation: {x: 0.5189945, y: -0.30122545, z: 0.24301225, w: 0.7621371}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraShoulder_R
+      parentName: FatGuy_FKOffsetShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKShoulder_R
+      parentName: FatGuy_FKExtraShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXShoulder_R
+      parentName: FatGuy_FKShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetElbow_R
+      parentName: FatGuy_FKXShoulder_R
+      position: {x: -0.27677482, y: 2.842171e-16, z: 1.4210854e-16}
+      rotation: {x: 0, y: 0, z: -0.14138004, w: 0.9899554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraElbow_R
+      parentName: FatGuy_FKOffsetElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKElbow_R
+      parentName: FatGuy_FKExtraElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXElbow_R
+      parentName: FatGuy_FKElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetWrist_R
+      parentName: FatGuy_FKXElbow_R
+      position: {x: -0.23620212, y: -4.2632563e-16, z: -2.1316282e-16}
+      rotation: {x: -0.5754469, y: 0.011152696, z: -0.08000434, w: 0.81384015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraWrist_R
+      parentName: FatGuy_FKOffsetWrist_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKWrist_R
+      parentName: FatGuy_FKExtraWrist_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXWrist_R
+      parentName: FatGuy_FKWrist_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKParentConstraintToRoot_M
+      parentName: FatGuy_FKSystem
+      position: {x: 6.717581e-17, y: 0.48091415, z: 0.09687309}
+      rotation: {x: 0.4779385, y: -0.5211284, z: -0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetHip_L
+      parentName: FatGuy_FKParentConstraintToRoot_M
+      position: {x: 0.015929459, y: -0.0121743595, z: 0.10996779}
+      rotation: {x: 0.9503045, y: -0.09761296, z: 0.11039298, w: -0.2742379}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraHip_L
+      parentName: FatGuy_FKOffsetHip_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKHip_L
+      parentName: FatGuy_FKExtraHip_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXHip_L
+      parentName: FatGuy_FKHip_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetKnee_L
+      parentName: FatGuy_FKXHip_L
+      position: {x: 0.19785787, y: 4.6185276e-16, z: 2.664535e-16}
+      rotation: {x: 0.000000012839415, y: 0.0000000012972603, z: 0.100525536, w: 0.9949345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraKnee_L
+      parentName: FatGuy_FKOffsetKnee_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKKnee_L
+      parentName: FatGuy_FKExtraKnee_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXKnee_L
+      parentName: FatGuy_FKKnee_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetAnkle_L
+      parentName: FatGuy_FKXKnee_L
+      position: {x: 0.20284496, y: 2.6645352e-17, z: 8.8817837e-17}
+      rotation: {x: -0.19251081, y: -0.084627084, z: -0.14439215, w: 0.96691716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraAnkle_L
+      parentName: FatGuy_FKOffsetAnkle_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKAnkle_L
+      parentName: FatGuy_FKExtraAnkle_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXAnkle_L
+      parentName: FatGuy_FKAnkle_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetToes_L
+      parentName: FatGuy_FKXAnkle_L
+      position: {x: 0.053942457, y: -0.11592159, z: -6.470374e-11}
+      rotation: {x: -0.23739819, y: -0.26541364, z: -0.63056123, w: 0.6896305}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraToes_L
+      parentName: FatGuy_FKOffsetToes_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKToes_L
+      parentName: FatGuy_FKExtraToes_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXToes_L
+      parentName: FatGuy_FKToes_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetHip_R
+      parentName: FatGuy_FKParentConstraintToRoot_M
+      position: {x: 0.015929459, y: -0.0121743595, z: -0.10996779}
+      rotation: {x: 0.09761297, y: 0.95030457, z: -0.27423793, w: -0.11039299}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraHip_R
+      parentName: FatGuy_FKOffsetHip_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKHip_R
+      parentName: FatGuy_FKExtraHip_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXHip_R
+      parentName: FatGuy_FKHip_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetKnee_R
+      parentName: FatGuy_FKXHip_R
+      position: {x: -0.19785787, y: -8.8817837e-17, z: -3.0198067e-16}
+      rotation: {x: 0, y: 0, z: 0.100525536, w: 0.9949345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraKnee_R
+      parentName: FatGuy_FKOffsetKnee_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKKnee_R
+      parentName: FatGuy_FKExtraKnee_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXKnee_R
+      parentName: FatGuy_FKKnee_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetAnkle_R
+      parentName: FatGuy_FKXKnee_R
+      position: {x: -0.20284496, y: 1.9539925e-16, z: 1.7763568e-17}
+      rotation: {x: -0.19251081, y: -0.084627084, z: -0.14439215, w: 0.96691716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraAnkle_R
+      parentName: FatGuy_FKOffsetAnkle_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKAnkle_R
+      parentName: FatGuy_FKExtraAnkle_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXAnkle_R
+      parentName: FatGuy_FKAnkle_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetToes_R
+      parentName: FatGuy_FKXAnkle_R
+      position: {x: -0.053942457, y: 0.11592159, z: 7.63403e-11}
+      rotation: {x: -0.23739819, y: -0.26541364, z: -0.63056123, w: 0.6896305}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraToes_R
+      parentName: FatGuy_FKOffsetToes_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKToes_R
+      parentName: FatGuy_FKExtraToes_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXToes_R
+      parentName: FatGuy_FKToes_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKParentConstraintToWrist_L
+      parentName: FatGuy_FKSystem
+      position: {x: -0.5371516, y: 0.67361736, z: -0.037983723}
+      rotation: {x: 0.28418773, y: -0.64910483, z: 0.68875664, w: -0.15334445}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetCup_L
+      parentName: FatGuy_FKParentConstraintToWrist_L
+      position: {x: 0.015825247, y: 0.008609914, z: 0.0036348547}
+      rotation: {x: 0.23767005, y: 0.018391797, z: 0.02379754, w: 0.9708802}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKCup_L
+      parentName: FatGuy_FKOffsetCup_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.11320321, y: -0, z: -0, w: 0.9935719}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraCup_L
+      parentName: FatGuy_SDKFKCup_L
+      position: {x: 8.881784e-18, y: 0, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKCup_L
+      parentName: FatGuy_FKExtraCup_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXCup_L
+      parentName: FatGuy_FKCup_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetPinkyFinger1_L
+      parentName: FatGuy_FKXCup_L
+      position: {x: 0.08792828, y: 0.0407182, z: -0.015437795}
+      rotation: {x: -0.27217993, y: -0.108172305, z: 0.08807807, w: 0.95208144}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKPinkyFinger1_L
+      parentName: FatGuy_FKOffsetPinkyFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.23344536, z: -0, w: 0.9723699}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraPinkyFinger1_L
+      parentName: FatGuy_SDKFKPinkyFinger1_L
+      position: {x: -6.217249e-17, y: 0, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKPinkyFinger1_L
+      parentName: FatGuy_FKExtraPinkyFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXPinkyFinger1_L
+      parentName: FatGuy_FKPinkyFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetPinkyFinger2_L
+      parentName: FatGuy_FKXPinkyFinger1_L
+      position: {x: 0.046151794, y: -1.0658141e-16, z: -8.5265126e-16}
+      rotation: {x: 0.008291518, y: -0.030692326, z: 0.0054496676, w: 0.99947965}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKPinkyFinger2_L
+      parentName: FatGuy_FKOffsetPinkyFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.23344536, z: -0, w: 0.9723699}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraPinkyFinger2_L
+      parentName: FatGuy_SDKFKPinkyFinger2_L
+      position: {x: -7.105427e-17, y: 1.7763568e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKPinkyFinger2_L
+      parentName: FatGuy_FKExtraPinkyFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXPinkyFinger2_L
+      parentName: FatGuy_FKPinkyFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetPinkyFinger3_L
+      parentName: FatGuy_FKXPinkyFinger2_L
+      position: {x: 0.032094803, y: -3.5527136e-17, z: 0}
+      rotation: {x: 0.013659051, y: 0.030542254, z: 0.019978827, w: 0.99924046}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKPinkyFinger3_L
+      parentName: FatGuy_FKOffsetPinkyFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.23344536, z: -0, w: 0.9723699}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraPinkyFinger3_L
+      parentName: FatGuy_SDKFKPinkyFinger3_L
+      position: {x: 1.1990408e-16, y: 1.7763568e-17, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKPinkyFinger3_L
+      parentName: FatGuy_FKExtraPinkyFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXPinkyFinger3_L
+      parentName: FatGuy_FKPinkyFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetRingFinger1_L
+      parentName: FatGuy_FKXCup_L
+      position: {x: 0.11717127, y: 0.014267281, z: -0.0069683897}
+      rotation: {x: -0.24944101, y: -0.12086868, z: 0.113741174, w: 0.95406127}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKRingFinger1_L
+      parentName: FatGuy_FKOffsetRingFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.23344536, z: -0, w: 0.9723699}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraRingFinger1_L
+      parentName: FatGuy_SDKFKRingFinger1_L
+      position: {x: -0, y: 0, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKRingFinger1_L
+      parentName: FatGuy_FKExtraRingFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXRingFinger1_L
+      parentName: FatGuy_FKRingFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetRingFinger2_L
+      parentName: FatGuy_FKXRingFinger1_L
+      position: {x: 0.04263636, y: -1.7763568e-17, z: 2.842171e-16}
+      rotation: {x: -0.0022547506, y: 0.009138924, z: -0.03752415, w: 0.9992514}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKRingFinger2_L
+      parentName: FatGuy_FKOffsetRingFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.23344536, z: -0, w: 0.9723699}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraRingFinger2_L
+      parentName: FatGuy_SDKFKRingFinger2_L
+      position: {x: -1.110223e-18, y: 0, z: 2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKRingFinger2_L
+      parentName: FatGuy_FKExtraRingFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXRingFinger2_L
+      parentName: FatGuy_FKRingFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetRingFinger3_L
+      parentName: FatGuy_FKXRingFinger2_L
+      position: {x: 0.03928317, y: 0, z: -4.2632563e-16}
+      rotation: {x: 0.005529427, y: 0.033532217, z: 0.0317447, w: 0.99891806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKRingFinger3_L
+      parentName: FatGuy_FKOffsetRingFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.23344536, z: -0, w: 0.9723699}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraRingFinger3_L
+      parentName: FatGuy_SDKFKRingFinger3_L
+      position: {x: -3.5527136e-17, y: 0, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKRingFinger3_L
+      parentName: FatGuy_FKExtraRingFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXRingFinger3_L
+      parentName: FatGuy_FKRingFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetIndexFinger1_L
+      parentName: FatGuy_FKParentConstraintToWrist_L
+      position: {x: 0.13807906, y: -0.035411995, z: 0.012067773}
+      rotation: {x: 0.0037842544, y: -0.10320506, z: 0.082491525, w: 0.9912263}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKIndexFinger1_L
+      parentName: FatGuy_FKOffsetIndexFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.07845911, z: -0, w: 0.99691737}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraIndexFinger1_L
+      parentName: FatGuy_SDKFKIndexFinger1_L
+      position: {x: 4.8849813e-17, y: -3.330669e-18, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKIndexFinger1_L
+      parentName: FatGuy_FKExtraIndexFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXIndexFinger1_L
+      parentName: FatGuy_FKIndexFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetIndexFinger2_L
+      parentName: FatGuy_FKXIndexFinger1_L
+      position: {x: 0.04422942, y: -2.997602e-17, z: 0}
+      rotation: {x: -0.01253851, y: -0.0281333, z: 0.0074962517, w: 0.9994975}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKIndexFinger2_L
+      parentName: FatGuy_FKOffsetIndexFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.07845911, z: -0, w: 0.99691737}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraIndexFinger2_L
+      parentName: FatGuy_SDKFKIndexFinger2_L
+      position: {x: 1.9984014e-17, y: 2.220446e-18, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKIndexFinger2_L
+      parentName: FatGuy_FKExtraIndexFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXIndexFinger2_L
+      parentName: FatGuy_FKIndexFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetIndexFinger3_L
+      parentName: FatGuy_FKXIndexFinger2_L
+      position: {x: 0.033803068, y: 6.661338e-18, z: 1.1368684e-15}
+      rotation: {x: -0.030607173, y: -0.029752199, z: 0.034370873, w: 0.9984972}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKIndexFinger3_L
+      parentName: FatGuy_FKOffsetIndexFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.07845911, z: -0, w: 0.99691737}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraIndexFinger3_L
+      parentName: FatGuy_SDKFKIndexFinger3_L
+      position: {x: -1.5099033e-16, y: 8.881784e-18, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKIndexFinger3_L
+      parentName: FatGuy_FKExtraIndexFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXIndexFinger3_L
+      parentName: FatGuy_FKIndexFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetMiddleFinger1_L
+      parentName: FatGuy_FKParentConstraintToWrist_L
+      position: {x: 0.1481867, y: 7.105427e-17, z: -4.2632563e-16}
+      rotation: {x: -0.010542575, y: -0.14811917, z: 0.09538775, w: 0.98430216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKMiddleFinger1_L
+      parentName: FatGuy_FKOffsetMiddleFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.15643446, z: -0, w: 0.98768836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraMiddleFinger1_L
+      parentName: FatGuy_SDKFKMiddleFinger1_L
+      position: {x: -6.217249e-17, y: 0, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKMiddleFinger1_L
+      parentName: FatGuy_FKExtraMiddleFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXMiddleFinger1_L
+      parentName: FatGuy_FKMiddleFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetMiddleFinger2_L
+      parentName: FatGuy_FKXMiddleFinger1_L
+      position: {x: 0.041484274, y: 5.3290704e-17, z: 8.5265126e-16}
+      rotation: {x: 0.0014895907, y: 0.007828995, z: -0.0020958262, w: 0.9999661}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKMiddleFinger2_L
+      parentName: FatGuy_FKOffsetMiddleFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.15643446, z: -0, w: 0.98768836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraMiddleFinger2_L
+      parentName: FatGuy_SDKFKMiddleFinger2_L
+      position: {x: -5.7731595e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKMiddleFinger2_L
+      parentName: FatGuy_FKExtraMiddleFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXMiddleFinger2_L
+      parentName: FatGuy_FKMiddleFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetMiddleFinger3_L
+      parentName: FatGuy_FKXMiddleFinger2_L
+      position: {x: 0.040415812, y: -8.8817837e-17, z: -2.842171e-16}
+      rotation: {x: 0.0004348194, y: -0.00024710756, z: -0.0065124445, w: 0.99997866}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKMiddleFinger3_L
+      parentName: FatGuy_FKOffsetMiddleFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.15643446, z: -0, w: 0.98768836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraMiddleFinger3_L
+      parentName: FatGuy_SDKFKMiddleFinger3_L
+      position: {x: 2.4424906e-17, y: 8.881784e-18, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKMiddleFinger3_L
+      parentName: FatGuy_FKExtraMiddleFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXMiddleFinger3_L
+      parentName: FatGuy_FKMiddleFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetThumbFinger1_L
+      parentName: FatGuy_FKParentConstraintToWrist_L
+      position: {x: 0.049518455, y: -0.05222439, z: -0.007910038}
+      rotation: {x: -0.39856538, y: -0.04819297, z: -0.40193453, w: 0.82296526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraThumbFinger1_L
+      parentName: FatGuy_FKOffsetThumbFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKThumbFinger1_L
+      parentName: FatGuy_FKExtraThumbFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXThumbFinger1_L
+      parentName: FatGuy_FKThumbFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetThumbFinger2_L
+      parentName: FatGuy_FKXThumbFinger1_L
+      position: {x: 0.04598712, y: 4.2632563e-16, z: -2.1316282e-16}
+      rotation: {x: 0.002313644, y: 0.036443215, z: 0.028040234, w: 0.9989396}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKThumbFinger2_L
+      parentName: FatGuy_FKOffsetThumbFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.38268346, z: -0, w: 0.92387956}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraThumbFinger2_L
+      parentName: FatGuy_SDKFKThumbFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKThumbFinger2_L
+      parentName: FatGuy_FKExtraThumbFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXThumbFinger2_L
+      parentName: FatGuy_FKThumbFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetThumbFinger3_L
+      parentName: FatGuy_FKXThumbFinger2_L
+      position: {x: 0.03705699, y: -2.842171e-16, z: -2.1316282e-16}
+      rotation: {x: 0.0019877946, y: 0.015271972, z: 0.03795455, w: 0.9991608}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKThumbFinger3_L
+      parentName: FatGuy_FKOffsetThumbFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.38268346, z: -0, w: 0.92387956}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraThumbFinger3_L
+      parentName: FatGuy_SDKFKThumbFinger3_L
+      position: {x: -4.4408918e-17, y: 1.4210854e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKThumbFinger3_L
+      parentName: FatGuy_FKExtraThumbFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXThumbFinger3_L
+      parentName: FatGuy_FKThumbFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKParentConstraintToWrist_R
+      parentName: FatGuy_FKSystem
+      position: {x: 0.5371516, y: 0.67361736, z: -0.03798373}
+      rotation: {x: 0.15334445, y: 0.68875664, z: 0.64910483, w: 0.28418773}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetCup_R
+      parentName: FatGuy_FKParentConstraintToWrist_R
+      position: {x: -0.015825247, y: -0.008609914, z: -0.0036348547}
+      rotation: {x: 0.23767005, y: 0.018391797, z: 0.02379754, w: 0.9708802}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKCup_R
+      parentName: FatGuy_FKOffsetCup_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.11320321, y: -0, z: -0, w: 0.9935719}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraCup_R
+      parentName: FatGuy_SDKFKCup_R
+      position: {x: 4.4408918e-17, y: 0, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKCup_R
+      parentName: FatGuy_FKExtraCup_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXCup_R
+      parentName: FatGuy_FKCup_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetPinkyFinger1_R
+      parentName: FatGuy_FKXCup_R
+      position: {x: -0.08792828, y: -0.0407182, z: 0.015437795}
+      rotation: {x: -0.27217993, y: -0.108172305, z: 0.08807807, w: 0.95208144}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKPinkyFinger1_R
+      parentName: FatGuy_FKOffsetPinkyFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.024471743, y: -0.15450852, z: 0.15450852, w: 0.9755283}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraPinkyFinger1_R
+      parentName: FatGuy_SDKFKPinkyFinger1_R
+      position: {x: -1.8651746e-16, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKPinkyFinger1_R
+      parentName: FatGuy_FKExtraPinkyFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXPinkyFinger1_R
+      parentName: FatGuy_FKPinkyFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetPinkyFinger2_R
+      parentName: FatGuy_FKXPinkyFinger1_R
+      position: {x: -0.046151794, y: 1.0658141e-16, z: 7.105427e-16}
+      rotation: {x: 0.008291518, y: -0.030692326, z: 0.0054496676, w: 0.99947965}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKPinkyFinger2_R
+      parentName: FatGuy_FKOffsetPinkyFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.15643446, z: -0, w: 0.98768836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraPinkyFinger2_R
+      parentName: FatGuy_SDKFKPinkyFinger2_R
+      position: {x: 8.881784e-18, y: 1.7763568e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKPinkyFinger2_R
+      parentName: FatGuy_FKExtraPinkyFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXPinkyFinger2_R
+      parentName: FatGuy_FKPinkyFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetPinkyFinger3_R
+      parentName: FatGuy_FKXPinkyFinger2_R
+      position: {x: -0.032094803, y: 1.7763568e-17, z: -4.2632563e-16}
+      rotation: {x: 0.013659051, y: 0.030542254, z: 0.019978827, w: 0.99924046}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKPinkyFinger3_R
+      parentName: FatGuy_FKOffsetPinkyFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.15643446, z: -0, w: 0.98768836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraPinkyFinger3_R
+      parentName: FatGuy_SDKFKPinkyFinger3_R
+      position: {x: -9.7699626e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKPinkyFinger3_R
+      parentName: FatGuy_FKExtraPinkyFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXPinkyFinger3_R
+      parentName: FatGuy_FKPinkyFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetRingFinger1_R
+      parentName: FatGuy_FKXCup_R
+      position: {x: -0.11717127, y: -0.014267281, z: 0.0069683897}
+      rotation: {x: -0.24944101, y: -0.12086868, z: 0.113741174, w: 0.95406127}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKRingFinger1_R
+      parentName: FatGuy_FKOffsetRingFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.0122737065, y: -0.15595223, z: 0.07749313, w: 0.98464364}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraRingFinger1_R
+      parentName: FatGuy_SDKFKRingFinger1_R
+      position: {x: 8.881784e-18, y: 0, z: -2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKRingFinger1_R
+      parentName: FatGuy_FKExtraRingFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXRingFinger1_R
+      parentName: FatGuy_FKRingFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetRingFinger2_R
+      parentName: FatGuy_FKXRingFinger1_R
+      position: {x: -0.04263636, y: 3.5527136e-17, z: -4.2632563e-16}
+      rotation: {x: -0.0022547506, y: 0.009138924, z: -0.03752415, w: 0.9992514}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKRingFinger2_R
+      parentName: FatGuy_FKOffsetRingFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.15643446, z: -0, w: 0.98768836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraRingFinger2_R
+      parentName: FatGuy_SDKFKRingFinger2_R
+      position: {x: -1.5820678e-16, y: -1.7763568e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKRingFinger2_R
+      parentName: FatGuy_FKExtraRingFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXRingFinger2_R
+      parentName: FatGuy_FKRingFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetRingFinger3_R
+      parentName: FatGuy_FKXRingFinger2_R
+      position: {x: -0.03928317, y: -1.7763568e-17, z: 1.4210854e-16}
+      rotation: {x: 0.005529427, y: 0.033532217, z: 0.0317447, w: 0.99891806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKRingFinger3_R
+      parentName: FatGuy_FKOffsetRingFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.15643446, z: -0, w: 0.98768836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraRingFinger3_R
+      parentName: FatGuy_SDKFKRingFinger3_R
+      position: {x: 1.7763568e-17, y: -8.881784e-18, z: -2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKRingFinger3_R
+      parentName: FatGuy_FKExtraRingFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXRingFinger3_R
+      parentName: FatGuy_FKRingFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetIndexFinger1_R
+      parentName: FatGuy_FKParentConstraintToWrist_R
+      position: {x: -0.13807906, y: 0.035411995, z: -0.012067773}
+      rotation: {x: 0.0037842544, y: -0.10320506, z: 0.082491525, w: 0.9912263}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKIndexFinger1_R
+      parentName: FatGuy_FKOffsetIndexFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00820121, y: -0.0780293, z: -0.10420624, w: 0.99145615}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraIndexFinger1_R
+      parentName: FatGuy_SDKFKIndexFinger1_R
+      position: {x: 1.9984014e-17, y: 2.220446e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKIndexFinger1_R
+      parentName: FatGuy_FKExtraIndexFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXIndexFinger1_R
+      parentName: FatGuy_FKIndexFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetIndexFinger2_R
+      parentName: FatGuy_FKXIndexFinger1_R
+      position: {x: -0.04422942, y: 4.3298696e-17, z: -1.4210854e-16}
+      rotation: {x: -0.01253851, y: -0.0281333, z: 0.0074962517, w: 0.9994975}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKIndexFinger2_R
+      parentName: FatGuy_FKOffsetIndexFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.07845911, z: -0, w: 0.99691737}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraIndexFinger2_R
+      parentName: FatGuy_SDKFKIndexFinger2_R
+      position: {x: -4.2188474e-17, y: 0, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKIndexFinger2_R
+      parentName: FatGuy_FKExtraIndexFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXIndexFinger2_R
+      parentName: FatGuy_FKIndexFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetIndexFinger3_R
+      parentName: FatGuy_FKXIndexFinger2_R
+      position: {x: -0.033803068, y: -1.11022296e-17, z: -9.947598e-16}
+      rotation: {x: -0.030607173, y: -0.029752199, z: 0.034370873, w: 0.9984972}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKIndexFinger3_R
+      parentName: FatGuy_FKOffsetIndexFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.07845911, z: -0, w: 0.99691737}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraIndexFinger3_R
+      parentName: FatGuy_SDKFKIndexFinger3_R
+      position: {x: 1.7763568e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKIndexFinger3_R
+      parentName: FatGuy_FKExtraIndexFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXIndexFinger3_R
+      parentName: FatGuy_FKIndexFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetMiddleFinger1_R
+      parentName: FatGuy_FKParentConstraintToWrist_R
+      position: {x: -0.1481867, y: -7.105427e-17, z: 4.2632563e-16}
+      rotation: {x: -0.010542575, y: -0.14811917, z: 0.09538775, w: 0.98430216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKMiddleFinger1_R
+      parentName: FatGuy_FKOffsetMiddleFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.15643446, z: -0, w: 0.98768836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraMiddleFinger1_R
+      parentName: FatGuy_SDKFKMiddleFinger1_R
+      position: {x: 2.6645352e-17, y: 0, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKMiddleFinger1_R
+      parentName: FatGuy_FKExtraMiddleFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXMiddleFinger1_R
+      parentName: FatGuy_FKMiddleFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetMiddleFinger2_R
+      parentName: FatGuy_FKXMiddleFinger1_R
+      position: {x: -0.041484274, y: -5.3290704e-17, z: -9.947598e-16}
+      rotation: {x: 0.0014895907, y: 0.007828995, z: -0.0020958262, w: 0.9999661}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKMiddleFinger2_R
+      parentName: FatGuy_FKOffsetMiddleFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.15643446, z: -0, w: 0.98768836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraMiddleFinger2_R
+      parentName: FatGuy_SDKFKMiddleFinger2_R
+      position: {x: 7.9936054e-17, y: 0, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKMiddleFinger2_R
+      parentName: FatGuy_FKExtraMiddleFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXMiddleFinger2_R
+      parentName: FatGuy_FKMiddleFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetMiddleFinger3_R
+      parentName: FatGuy_FKXMiddleFinger2_R
+      position: {x: -0.040415812, y: 7.9936054e-17, z: 4.2632563e-16}
+      rotation: {x: 0.0004348194, y: -0.00024710756, z: -0.0065124445, w: 0.99997866}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKMiddleFinger3_R
+      parentName: FatGuy_FKOffsetMiddleFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.15643446, z: -0, w: 0.98768836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraMiddleFinger3_R
+      parentName: FatGuy_SDKFKMiddleFinger3_R
+      position: {x: 3.7747583e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKMiddleFinger3_R
+      parentName: FatGuy_FKExtraMiddleFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXMiddleFinger3_R
+      parentName: FatGuy_FKMiddleFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetThumbFinger1_R
+      parentName: FatGuy_FKParentConstraintToWrist_R
+      position: {x: -0.049518455, y: 0.05222439, z: 0.007910038}
+      rotation: {x: -0.39856538, y: -0.04819297, z: -0.40193453, w: 0.82296526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraThumbFinger1_R
+      parentName: FatGuy_FKOffsetThumbFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKThumbFinger1_R
+      parentName: FatGuy_FKExtraThumbFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXThumbFinger1_R
+      parentName: FatGuy_FKThumbFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetThumbFinger2_R
+      parentName: FatGuy_FKXThumbFinger1_R
+      position: {x: -0.04598712, y: -3.5527135e-16, z: 2.842171e-16}
+      rotation: {x: 0.002313644, y: 0.036443215, z: 0.028040234, w: 0.9989396}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKThumbFinger2_R
+      parentName: FatGuy_FKOffsetThumbFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.309017, z: -0, w: 0.95105654}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraThumbFinger2_R
+      parentName: FatGuy_SDKFKThumbFinger2_R
+      position: {x: -0, y: -7.105427e-17, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKThumbFinger2_R
+      parentName: FatGuy_FKExtraThumbFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXThumbFinger2_R
+      parentName: FatGuy_FKThumbFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKOffsetThumbFinger3_R
+      parentName: FatGuy_FKXThumbFinger2_R
+      position: {x: -0.03705699, y: 2.1316282e-16, z: 2.842171e-16}
+      rotation: {x: 0.0019877946, y: 0.015271972, z: 0.03795455, w: 0.9991608}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_SDKFKThumbFinger3_R
+      parentName: FatGuy_FKOffsetThumbFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.309017, z: -0, w: 0.95105654}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKExtraThumbFinger3_R
+      parentName: FatGuy_SDKFKThumbFinger3_R
+      position: {x: -3.5527136e-17, y: 7.105427e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKThumbFinger3_R
+      parentName: FatGuy_FKExtraThumbFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_FKXThumbFinger3_R
+      parentName: FatGuy_FKThumbFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSystem
+      parentName: FatGuy_MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKCurve
+      parentName: FatGuy_IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpineCurve_M
+      parentName: FatGuy_IKCurve
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKHandle
+      parentName: FatGuy_IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKcvOffsetSpine1_M
+      parentName: FatGuy_IKHandle
+      position: {x: 4.360862e-18, y: 0.5634591, z: 0.08972285}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKcvExtraSpine1_M
+      parentName: FatGuy_IKcvOffsetSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKcvSpine1_M
+      parentName: FatGuy_IKcvExtraSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpineLocator1_M
+      parentName: FatGuy_IKcvSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKcvOffsetSpine2_M
+      parentName: FatGuy_IKHandle
+      position: {x: 2.4663922e-17, y: 0.646004, z: 0.08257261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKcvExtraSpine2_M
+      parentName: FatGuy_IKcvOffsetSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKcvSpine2_M
+      parentName: FatGuy_IKcvExtraSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpineLocator2_M
+      parentName: FatGuy_IKcvSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKcvOffsetSpine3_M
+      parentName: FatGuy_IKHandle
+      position: {x: 8.5573105e-17, y: 0.72854894, z: 0.07542238}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKcvExtraSpine3_M
+      parentName: FatGuy_IKcvOffsetSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKcvSpine3_M
+      parentName: FatGuy_IKcvExtraSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpineLocator3_M
+      parentName: FatGuy_IKcvSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKcvOffsetSpine4_M
+      parentName: FatGuy_IKHandle
+      position: {x: 1.0238674e-16, y: 0.82708097, z: 0.032959048}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKcvExtraSpine4_M
+      parentName: FatGuy_IKcvOffsetSpine4_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKcvSpine4_M
+      parentName: FatGuy_IKcvExtraSpine4_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpineLocator4_M
+      parentName: FatGuy_IKcvSpine4_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKcvOffsetSpine5_M
+      parentName: FatGuy_IKHandle
+      position: {x: 1.1920037e-16, y: 0.9256129, z: -0.009504279}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKcvExtraSpine5_M
+      parentName: FatGuy_IKcvOffsetSpine5_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKcvSpine5_M
+      parentName: FatGuy_IKcvExtraSpine5_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpineLocator5_M
+      parentName: FatGuy_IKcvSpine5_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKHandleFollowMain
+      parentName: FatGuy_IKHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKOffsetSpine2_M
+      parentName: FatGuy_IKHandleFollowMain
+      position: {x: 8.898176e-17, y: 0.76223356, z: 0.05948563}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKExtraSpine2_M
+      parentName: FatGuy_IKOffsetSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpine2_M
+      parentName: FatGuy_IKExtraSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpine2LocalOrient1_M
+      parentName: FatGuy_IKSpine2_M
+      position: {x: -0, y: -1.4210854e-16, z: -8.881784e-18}
+      rotation: {x: 0.4779385, y: -0.5211284, z: -0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpine2LocalOrient2_M
+      parentName: FatGuy_IKSpine2LocalOrient1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKhybridFollowSpine1_M
+      parentName: FatGuy_IKHandle
+      position: {x: -1.5942199e-17, y: 0.48091415, z: 0.09687309}
+      rotation: {x: 0.4779385, y: -0.5211284, z: -0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKhybridExtraSpine1_M
+      parentName: FatGuy_IKhybridFollowSpine1_M
+      position: {x: -0, y: 0, z: -1.9721522e-33}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKhybridSpine1_M
+      parentName: FatGuy_IKhybridExtraSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKhybridOffsetSpine2_M
+      parentName: FatGuy_IKhybridSpine1_M
+      position: {x: -0.28349635, y: -0.012970338, z: -1.0492395e-16}
+      rotation: {x: 0, y: 0, z: 0.13174, w: 0.9912843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKhybridExtraSpine2_M
+      parentName: FatGuy_IKhybridOffsetSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKhybridSpine2_M
+      parentName: FatGuy_IKhybridExtraSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKhybridOffsetSpine3_M
+      parentName: FatGuy_IKhybridSpine2_M
+      position: {x: -0.28425917, y: -0.014701149, z: -1.6717527e-16}
+      rotation: {x: 0, y: 0, z: 0.028122775, w: 0.99960446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKhybridExtraSpine3_M
+      parentName: FatGuy_IKhybridOffsetSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKhybridSpine3_M
+      parentName: FatGuy_IKhybridExtraSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKOffsetSpine3_M
+      parentName: FatGuy_IKhybridSpine3_M
+      position: {x: -0, y: 7.105427e-17, z: 3.1554436e-32}
+      rotation: {x: -0.38866067, y: 0.59071386, z: 0.38866067, w: 0.59071386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKExtraSpine3_M
+      parentName: FatGuy_IKOffsetSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpine3_M
+      parentName: FatGuy_IKExtraSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpine3LocalOrient1_M
+      parentName: FatGuy_IKSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.47661594, y: -0.5223383, z: -0.47661594, w: 0.5223383}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpine3LocalOrient2_M
+      parentName: FatGuy_IKSpine3LocalOrient1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpineLocator6_M
+      parentName: FatGuy_IKSpine3_M
+      position: {x: -2.1275218e-16, y: 4.2518378e-10, z: 0.000000001628922}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKOffsetArm_L
+      parentName: FatGuy_IKHandle
+      position: {x: -0.5371516, y: 0.67361736, z: -0.037983723}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKExtraArm_L
+      parentName: FatGuy_IKOffsetArm_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKArm_L
+      parentName: FatGuy_IKExtraArm_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKFKAlignedOffsetArm_L
+      parentName: FatGuy_IKArm_L
+      position: {x: -0, y: 0, z: -8.881784e-18}
+      rotation: {x: 0.28418773, y: -0.64910483, z: 0.68875664, w: -0.15334445}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKFKAlignedArm_L
+      parentName: FatGuy_IKFKAlignedOffsetArm_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKmessureConstrainToArm_L
+      parentName: FatGuy_IKArm_L
+      position: {x: 7.105427e-17, y: -7.105427e-16, z: -3.2862602e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKOffsetArm_R
+      parentName: FatGuy_IKHandle
+      position: {x: 0.5371516, y: 0.67361736, z: -0.03798373}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKExtraArm_R
+      parentName: FatGuy_IKOffsetArm_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKArm_R
+      parentName: FatGuy_IKExtraArm_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKFKAlignedOffsetArm_R
+      parentName: FatGuy_IKArm_R
+      position: {x: -7.105427e-17, y: 0, z: 8.881784e-18}
+      rotation: {x: 0.15334445, y: 0.68875664, z: 0.64910483, w: 0.28418773}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKFKAlignedArm_R
+      parentName: FatGuy_IKFKAlignedOffsetArm_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKmessureConstrainToArm_R
+      parentName: FatGuy_IKArm_R
+      position: {x: 7.105427e-16, y: -5.684342e-16, z: 2.753353e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKOffsetConstrainedSpine1_M
+      parentName: FatGuy_IKHandle
+      position: {x: -1.5942199e-17, y: 0.48091415, z: 0.09687309}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKhybridOffsetSpine1_M
+      parentName: FatGuy_IKOffsetConstrainedSpine1_M
+      position: {x: -3.1554436e-32, y: -1.4210854e-16, z: 1.7763568e-17}
+      rotation: {x: 0.4779385, y: -0.5211284, z: -0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKOffsetSpine1_M
+      parentName: FatGuy_IKhybridOffsetSpine1_M
+      position: {x: -7.105427e-17, y: -1.7763568e-17, z: -1.9721522e-33}
+      rotation: {x: -0.4779385, y: 0.5211284, z: 0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKExtraSpine1_M
+      parentName: FatGuy_IKOffsetSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpine1_M
+      parentName: FatGuy_IKExtraSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpine1LocalOrient1_M
+      parentName: FatGuy_IKSpine1_M
+      position: {x: 3.1554436e-32, y: 0, z: 0}
+      rotation: {x: 0.4779385, y: -0.5211284, z: -0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpine1LocalOrient2_M
+      parentName: FatGuy_IKSpine1LocalOrient1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpine1LocalOrient3_M
+      parentName: FatGuy_IKSpine1LocalOrient2_M
+      position: {x: 7.105427e-17, y: 0, z: 3.1554436e-32}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpineLocator0_M
+      parentName: FatGuy_IKSpine1_M
+      position: {x: 3.1554436e-32, y: 7.105427e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKOffsetLeg_L
+      parentName: FatGuy_IKHandle
+      position: {x: -0.14992392, y: 0.07975173, z: -0.012381078}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKExtraLeg_L
+      parentName: FatGuy_IKOffsetLeg_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKLeg_L
+      parentName: FatGuy_IKExtraLeg_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKFKAlignedOffsetLeg_L
+      parentName: FatGuy_IKLeg_L
+      position: {x: -0, y: -1.7763568e-17, z: -4.440892e-18}
+      rotation: {x: -0.44807604, y: 0.44807604, z: -0.5470173, w: 0.5470173}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKFKAlignedLeg_L
+      parentName: FatGuy_IKFKAlignedOffsetLeg_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollOffsetHeel_L
+      parentName: FatGuy_IKLeg_L
+      position: {x: 0.00000000133629, y: -0.067883514, z: -0.052091982}
+      rotation: {x: 0, y: -0.0989412, z: -0, w: 0.9950933}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollRollerHeel_L
+      parentName: FatGuy_RollOffsetHeel_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollExtraHeel_L
+      parentName: FatGuy_RollRollerHeel_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollHeel_L
+      parentName: FatGuy_RollExtraHeel_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollOffsetToesEnd_L
+      parentName: FatGuy_RollHeel_L
+      position: {x: 0.08159172, y: 0.007091704, z: 0.24671356}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollRollerToesEnd_L
+      parentName: FatGuy_RollOffsetToesEnd_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollExtraToesEnd_L
+      parentName: FatGuy_RollRollerToesEnd_L
+      position: {x: -0, y: -2.220446e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollToesEnd_L
+      parentName: FatGuy_RollExtraToesEnd_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollOffsetToes_L
+      parentName: FatGuy_RollToesEnd_L
+      position: {x: -0.07133421, y: 0.0068493574, z: -0.07971988}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollRollerToes_L
+      parentName: FatGuy_RollOffsetToes_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollExtraToes_L
+      parentName: FatGuy_RollRollerToes_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollToes_L
+      parentName: FatGuy_RollExtraToes_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKmessureConstrainToLeg_L
+      parentName: FatGuy_RollToes_L
+      position: {x: 0.0000000018253886, y: 0.053942457, z: -0.11592159}
+      rotation: {x: 0, y: 0.0989412, z: -0, w: 0.9950933}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKOffsetLeg_R
+      parentName: FatGuy_IKHandle
+      position: {x: 0.14992392, y: 0.07975173, z: -0.012381077}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKExtraLeg_R
+      parentName: FatGuy_IKOffsetLeg_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKLeg_R
+      parentName: FatGuy_IKExtraLeg_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKFKAlignedOffsetLeg_R
+      parentName: FatGuy_IKLeg_R
+      position: {x: 1.7763568e-17, y: 0, z: -8.881784e-18}
+      rotation: {x: 0.5470173, y: 0.5470173, z: 0.44807607, w: 0.44807607}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKFKAlignedLeg_R
+      parentName: FatGuy_IKFKAlignedOffsetLeg_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollOffsetHeel_R
+      parentName: FatGuy_IKLeg_R
+      position: {x: 1.4328846e-10, y: -0.067883514, z: -0.052091982}
+      rotation: {x: 0, y: 0.0989412, z: -0, w: 0.9950933}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollRollerHeel_R
+      parentName: FatGuy_RollOffsetHeel_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollExtraHeel_R
+      parentName: FatGuy_RollRollerHeel_R
+      position: {x: -0, y: -2.220446e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollHeel_R
+      parentName: FatGuy_RollExtraHeel_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollOffsetToesEnd_R
+      parentName: FatGuy_RollHeel_R
+      position: {x: -0.081591725, y: 0.0070917034, z: 0.24671356}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollRollerToesEnd_R
+      parentName: FatGuy_RollOffsetToesEnd_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollExtraToesEnd_R
+      parentName: FatGuy_RollRollerToesEnd_R
+      position: {x: -0, y: -2.220446e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollToesEnd_R
+      parentName: FatGuy_RollExtraToesEnd_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollOffsetToes_R
+      parentName: FatGuy_RollToesEnd_R
+      position: {x: 0.07133422, y: 0.0068493574, z: -0.07971988}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollRollerToes_R
+      parentName: FatGuy_RollOffsetToes_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollExtraToes_R
+      parentName: FatGuy_RollRollerToes_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RollToes_R
+      parentName: FatGuy_RollExtraToes_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKmessureConstrainToLeg_R
+      parentName: FatGuy_RollToes_R
+      position: {x: 0.0000000027537927, y: 0.053942457, z: -0.11592159}
+      rotation: {x: 0, y: -0.0989412, z: -0, w: 0.9950933}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKJoints
+      parentName: FatGuy_IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKAcSpineOffset2_M
+      parentName: FatGuy_IKJoints
+      position: {x: -1.5942199e-17, y: 0.48091415, z: 0.09687309}
+      rotation: {x: 0.4779385, y: -0.5211284, z: -0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKAcChestFollowOffset_M
+      parentName: FatGuy_IKAcSpineOffset2_M
+      position: {x: -0.55404896, y: -0.101405025, z: -1.5228849e-16}
+      rotation: {x: 0, y: 0, z: 0.0025349231, w: 0.9999968}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKAcRootFollowOffset_M
+      parentName: FatGuy_IKAcSpineOffset2_M
+      position: {x: -0, y: 0, z: 1.2621774e-31}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKAcRootPart1FollowOffset_M
+      parentName: FatGuy_IKAcSpineOffset2_M
+      position: {x: -0.08285404, y: -7.105427e-17, z: -1.9057774e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKAcRootPart2FollowOffset_M
+      parentName: FatGuy_IKAcSpineOffset2_M
+      position: {x: -0.16570808, y: 0, z: -2.220903e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKAcSpine1FollowOffset_M
+      parentName: FatGuy_IKAcSpineOffset2_M
+      position: {x: -0.24856213, y: 3.5527136e-17, z: -8.3814764e-17}
+      rotation: {x: 0, y: 0, z: 0.15956557, w: 0.9871873}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKAcSpine1Part1FollowOffset_M
+      parentName: FatGuy_IKAcSpineOffset2_M
+      position: {x: -0.35039106, y: -0.033801675, z: -9.3887594e-17}
+      rotation: {x: 0, y: 0, z: 0.15956557, w: 0.9871873}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKAcSpine1Part2FollowOffset_M
+      parentName: FatGuy_IKAcSpineOffset2_M
+      position: {x: -0.45222002, y: -0.06760335, z: -1.0573501e-16}
+      rotation: {x: 0, y: 0, z: 0.15956557, w: 0.9871874}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKParentConstraintHip_L
+      parentName: FatGuy_IKJoints
+      position: {x: 6.717581e-17, y: 0.48091415, z: 0.09687309}
+      rotation: {x: 0.4779385, y: -0.5211284, z: -0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXOffsetHip_L
+      parentName: FatGuy_IKParentConstraintHip_L
+      position: {x: 0.015929459, y: -0.0121743595, z: 0.10996779}
+      rotation: {x: 0.9503045, y: -0.09761296, z: 0.11039298, w: -0.2742379}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXHip_L
+      parentName: FatGuy_IKXOffsetHip_L
+      position: {x: 7.105427e-17, y: 1.7763568e-17, z: 0}
+      rotation: {x: 0.00000001472998, y: 0.0000000024334672, z: -0.000000026847635, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXKnee_L
+      parentName: FatGuy_IKXHip_L
+      position: {x: 0.19785787, y: 4.6185276e-16, z: 3.0198067e-16}
+      rotation: {x: 0.00000001232567, y: 0.0000000012453537, z: 0.10052559, w: 0.9949345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXAnkle_L
+      parentName: FatGuy_IKXKnee_L
+      position: {x: 0.20284496, y: -1.687539e-16, z: 1.9539925e-16}
+      rotation: {x: -0.19251081, y: -0.084627084, z: -0.14439219, w: 0.96691716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXToes_L
+      parentName: FatGuy_IKXAnkle_L
+      position: {x: 0.053942457, y: -0.11592159, z: -1.9508205e-10}
+      rotation: {x: -0.23739818, y: -0.26541364, z: -0.63056123, w: 0.6896305}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKParentConstraintHip_R
+      parentName: FatGuy_IKJoints
+      position: {x: 6.717581e-17, y: 0.48091415, z: 0.09687309}
+      rotation: {x: 0.4779385, y: -0.5211284, z: -0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXOffsetHip_R
+      parentName: FatGuy_IKParentConstraintHip_R
+      position: {x: 0.015929459, y: -0.0121743595, z: -0.10996779}
+      rotation: {x: 0.09761297, y: 0.95030457, z: -0.27423793, w: -0.11039299}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXHip_R
+      parentName: FatGuy_IKXOffsetHip_R
+      position: {x: 7.105427e-17, y: 3.5527136e-17, z: -5.3290704e-17}
+      rotation: {x: -0.000000007509237, y: 1.9319407e-10, z: -0.000000027861107, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXKnee_R
+      parentName: FatGuy_IKXHip_R
+      position: {x: -0.19785787, y: -3.0198067e-16, z: -3.0198067e-16}
+      rotation: {x: -3.2241733e-23, y: 5.09215e-22, z: 0.10052559, w: 0.9949345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXAnkle_R
+      parentName: FatGuy_IKXKnee_R
+      position: {x: -0.20284496, y: 1.5099033e-16, z: 7.105427e-17}
+      rotation: {x: -0.19251081, y: -0.084627084, z: -0.14439219, w: 0.96691716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXToes_R
+      parentName: FatGuy_IKXAnkle_R
+      position: {x: -0.053942457, y: 0.11592159, z: 7.634028e-11}
+      rotation: {x: -0.23739818, y: -0.26541364, z: -0.63056123, w: 0.6896305}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKParentConstraintRoot_M
+      parentName: FatGuy_IKJoints
+      position: {x: -1.5942199e-17, y: 0.48091415, z: 0.09687309}
+      rotation: {x: 0.4779385, y: -0.5211284, z: -0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXOffsetRoot_M
+      parentName: FatGuy_IKParentConstraintRoot_M
+      position: {x: 7.105427e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXRoot_M
+      parentName: FatGuy_IKXOffsetRoot_M
+      position: {x: -0, y: -1.7763568e-17, z: 0}
+      rotation: {x: -2.7755576e-17, y: -1.4059289e-32, z: 1.5959456e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXRootPart1_M
+      parentName: FatGuy_IKXRoot_M
+      position: {x: -0.08285404, y: -5.3290704e-17, z: -1.9057774e-18}
+      rotation: {x: -3.081488e-33, y: 8.666685e-33, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXRootPart2_M
+      parentName: FatGuy_IKXRootPart1_M
+      position: {x: -0.08285404, y: 7.105427e-17, z: -2.0303252e-17}
+      rotation: {x: 0, y: 3.4474146e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXSpine1_M
+      parentName: FatGuy_IKXRootPart2_M
+      position: {x: -0.08285404, y: 1.7763568e-17, z: -6.160573e-17}
+      rotation: {x: 1.6061439e-17, y: -8.857668e-18, z: 0.15956557, w: 0.9871873}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXSpine1Part1_M
+      parentName: FatGuy_IKXSpine1_M
+      position: {x: -0.10729253, y: 0, z: -1.0072834e-17}
+      rotation: {x: -6.882446e-17, y: -1.2232933e-16, z: 2.4980018e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXSpine1Part2_M
+      parentName: FatGuy_IKXSpine1Part1_M
+      position: {x: -0.10729253, y: 0, z: -1.1847412e-17}
+      rotation: {x: -1.2433561e-16, y: 9.971527e-17, z: -0.0000000013955075, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXChest_M
+      parentName: FatGuy_IKXSpine1Part2_M
+      position: {x: -0.10729253, y: -2.842171e-16, z: -4.6553477e-17}
+      rotation: {x: -2.6299784e-17, y: 4.1797354e-18, z: -0.15706262, w: 0.9875887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKParentConstraintShoulder_L
+      parentName: FatGuy_IKJoints
+      position: {x: -0.13185069, y: 1.08537, z: -0.050859645}
+      rotation: {x: 0.08682158, y: -0.69746673, z: 0.7083382, w: -0.06526256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXOffsetShoulder_L
+      parentName: FatGuy_IKParentConstraintShoulder_L
+      position: {x: 0.08623822, y: 1.1546319e-16, z: 0}
+      rotation: {x: 0.5189945, y: -0.30122545, z: 0.24301225, w: 0.7621371}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXShoulder_L
+      parentName: FatGuy_IKXOffsetShoulder_L
+      position: {x: -0, y: -1.4210854e-16, z: 0}
+      rotation: {x: -0.0000000073871695, y: 9.699886e-10, z: 0.000000010536712, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXElbow_L
+      parentName: FatGuy_IKXShoulder_L
+      position: {x: 0.27677482, y: -1.4210854e-16, z: -2.1316282e-16}
+      rotation: {x: -6.997094e-24, y: -4.8994267e-23, z: -0.14138007, w: 0.9899554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXWrist_L
+      parentName: FatGuy_IKXElbow_L
+      position: {x: 0.23620212, y: 4.2632563e-16, z: 0}
+      rotation: {x: -0.5754469, y: 0.011152692, z: -0.080004334, w: 0.81384015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKParentConstraintShoulder_R
+      parentName: FatGuy_IKJoints
+      position: {x: 0.13185069, y: 1.08537, z: -0.050859645}
+      rotation: {x: 0.06526257, y: 0.7083382, z: 0.69746673, w: 0.08682158}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXOffsetShoulder_R
+      parentName: FatGuy_IKParentConstraintShoulder_R
+      position: {x: -0.08623822, y: -9.325873e-17, z: -1.4210854e-16}
+      rotation: {x: 0.5189945, y: -0.30122545, z: 0.24301225, w: 0.7621371}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXShoulder_R
+      parentName: FatGuy_IKXOffsetShoulder_R
+      position: {x: -1.4210854e-16, y: 0, z: -7.105427e-17}
+      rotation: {x: 0.0000000073871695, y: -9.699883e-10, z: 0.000000010536712, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXElbow_R
+      parentName: FatGuy_IKXShoulder_R
+      position: {x: -0.27677482, y: 5.684342e-16, z: 2.842171e-16}
+      rotation: {x: 7.068531e-24, y: -1.8014584e-22, z: -0.14138007, w: 0.9899554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKXWrist_R
+      parentName: FatGuy_IKXElbow_R
+      position: {x: -0.23620212, y: -4.2632563e-16, z: -4.2632563e-16}
+      rotation: {x: -0.5754469, y: 0.011152692, z: -0.080004334, w: 0.81384015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpSpineOffset_M
+      parentName: FatGuy_IKJoints
+      position: {x: -1.5942199e-17, y: 0.48091415, z: 0.09687309}
+      rotation: {x: 0.4779385, y: -0.5211284, z: -0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpChestFollowOffset_M
+      parentName: FatGuy_IKSpSpineOffset_M
+      position: {x: -0.55404896, y: -0.101405025, z: -1.5104555e-16}
+      rotation: {x: 1.410289e-16, y: -4.43736e-16, z: 0.0025349231, w: 0.9999968}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpRootFollowOffset_M
+      parentName: FatGuy_IKSpSpineOffset_M
+      position: {x: 7.105427e-17, y: -1.7763568e-17, z: 0}
+      rotation: {x: -3.081488e-33, y: -1.675559e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpRootPart1FollowOffset_M
+      parentName: FatGuy_IKSpSpineOffset_M
+      position: {x: -0.08285404, y: -5.3290704e-17, z: -1.9057679e-18}
+      rotation: {x: -3.081488e-33, y: -1.5985219e-32, z: -6.938894e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpRootPart2FollowOffset_M
+      parentName: FatGuy_IKSpSpineOffset_M
+      position: {x: -0.16570808, y: 3.5527136e-17, z: -2.2208828e-17}
+      rotation: {x: -3.081488e-33, y: -4.0637122e-32, z: 6.938894e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpSpine1FollowOffset_M
+      parentName: FatGuy_IKSpSpineOffset_M
+      position: {x: -0.24856213, y: -7.105427e-17, z: -8.311801e-17}
+      rotation: {x: -1.258828e-33, y: -5.014719e-32, z: 0.15956557, w: 0.9871873}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpSpine1Part1FollowOffset_M
+      parentName: FatGuy_IKSpSpineOffset_M
+      position: {x: -0.35039106, y: -0.033801675, z: -9.496574e-17}
+      rotation: {x: 1.0109416e-32, y: -4.6089135e-33, z: 0.15956557, w: 0.9871873}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKSpSpine1Part2FollowOffset_M
+      parentName: FatGuy_IKSpSpineOffset_M
+      position: {x: -0.45222002, y: -0.06760335, z: -1.06813475e-16}
+      rotation: {x: -3.625515e-33, y: -1.619343e-32, z: 0.15956557, w: 0.9871874}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKPoleVector
+      parentName: FatGuy_IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_PoleOffsetArm_L
+      parentName: FatGuy_IKPoleVector
+      position: {x: -0.024195468, y: 0.5444813, z: -0.22591633}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_PoleExtraArm_L
+      parentName: FatGuy_PoleOffsetArm_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_PoleArm_L
+      parentName: FatGuy_PoleExtraArm_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_PoleOffsetArm_R
+      parentName: FatGuy_IKPoleVector
+      position: {x: 0.024195468, y: 0.5444813, z: -0.22591633}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_PoleExtraArm_R
+      parentName: FatGuy_PoleOffsetArm_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_PoleArm_R
+      parentName: FatGuy_PoleExtraArm_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_PoleOffsetLeg_L
+      parentName: FatGuy_IKPoleVector
+      position: {x: -0.35238013, y: 0.21395637, z: 0.36510676}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_PoleExtraLeg_L
+      parentName: FatGuy_PoleOffsetLeg_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_PoleLeg_L
+      parentName: FatGuy_PoleExtraLeg_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_PoleOffsetLeg_R
+      parentName: FatGuy_IKPoleVector
+      position: {x: 0.35238013, y: 0.21395637, z: 0.36510676}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_PoleExtraLeg_R
+      parentName: FatGuy_PoleOffsetLeg_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_PoleLeg_R
+      parentName: FatGuy_PoleExtraLeg_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKScaler
+      parentName: FatGuy_IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKScalerChest_M
+      parentName: FatGuy_IKScaler
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKScalerRoot_M
+      parentName: FatGuy_IKScaler
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKScalerRootPart1_M
+      parentName: FatGuy_IKScaler
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKScalerRootPart2_M
+      parentName: FatGuy_IKScaler
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKScalerSpine1_M
+      parentName: FatGuy_IKScaler
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKScalerSpine1Part1_M
+      parentName: FatGuy_IKScaler
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_IKScalerSpine1Part2_M
+      parentName: FatGuy_IKScaler
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_MainSystem
+      parentName: FatGuy_MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_Main
+      parentName: FatGuy_MainSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_TwistSystem
+      parentName: FatGuy_MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_ElbowXformInverter_L
+      parentName: FatGuy_TwistSystem
+      position: {x: -0.36365324, y: 0.83293563, z: -0.05551788}
+      rotation: {x: 0.09879207, y: -0.15295069, z: 0.91862553, w: -0.3506756}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_WristXformReverter_L
+      parentName: FatGuy_ElbowXformInverter_L
+      position: {x: 0.23620212, y: 2.842171e-16, z: 1.4210854e-16}
+      rotation: {x: -0.5754469, y: 0.011152696, z: -0.08000434, w: 0.81384015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_ElbowXformInverter_R
+      parentName: FatGuy_TwistSystem
+      position: {x: 0.36365324, y: 0.83293563, z: -0.05551788}
+      rotation: {x: 0.3506756, y: 0.91862553, z: 0.15295069, w: 0.09879207}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_WristXformReverter_R
+      parentName: FatGuy_ElbowXformInverter_R
+      position: {x: -0.23620212, y: -2.842171e-16, z: -2.1316282e-16}
+      rotation: {x: -0.5754469, y: 0.011152696, z: -0.08000434, w: 0.81384015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_HipXformInverter_L
+      parentName: FatGuy_TwistSystem
+      position: {x: -0.10996779, y: 0.4639935, z: 0.08611885}
+      rotation: {x: -0.25997993, y: 0.4149039, z: -0.6371755, w: 0.5952081}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_KneeXformReverter_L
+      parentName: FatGuy_HipXformInverter_L
+      position: {x: 0.19785787, y: 4.440892e-16, z: 3.0198067e-16}
+      rotation: {x: 0.00000001232567, y: 0.0000000012453529, z: 0.100525536, w: 0.9949345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_HipXformInverter_R
+      parentName: FatGuy_TwistSystem
+      position: {x: 0.10996779, y: 0.4639935, z: 0.08611885}
+      rotation: {x: 0.59520805, y: 0.6371755, z: 0.41490388, w: 0.25997996}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_KneeXformReverter_R
+      parentName: FatGuy_HipXformInverter_R
+      position: {x: -0.19785787, y: -1.0658141e-16, z: -4.973799e-16}
+      rotation: {x: 0, y: 0, z: 0.100525536, w: 0.9949345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_RootXformInverter_M
+      parentName: FatGuy_TwistSystem
+      position: {x: 6.717581e-17, y: 0.48091415, z: 0.09687309}
+      rotation: {x: 0.4779385, y: -0.5211284, z: -0.4779385, w: 0.5211284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_HipXformReverter_L
+      parentName: FatGuy_RootXformInverter_M
+      position: {x: 0.015929459, y: -0.0121743595, z: 0.10996779}
+      rotation: {x: 0.9503045, y: -0.09761296, z: 0.11039298, w: -0.2742379}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_HipXformReverter_R
+      parentName: FatGuy_RootXformInverter_M
+      position: {x: 0.015929459, y: -0.0121743595, z: -0.10996779}
+      rotation: {x: 0.09761297, y: 0.95030457, z: -0.27423793, w: -0.11039299}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_ScapulaXformInverter_L
+      parentName: FatGuy_TwistSystem
+      position: {x: -0.13185069, y: 1.08537, z: -0.050859645}
+      rotation: {x: 0.08682158, y: -0.69746673, z: 0.7083382, w: -0.06526256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_ShoulderXformReverter_L
+      parentName: FatGuy_ScapulaXformInverter_L
+      position: {x: 0.08623822, y: 1.2434498e-16, z: 0}
+      rotation: {x: 0.5189945, y: -0.30122545, z: 0.24301225, w: 0.7621371}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_ScapulaXformInverter_R
+      parentName: FatGuy_TwistSystem
+      position: {x: 0.13185069, y: 1.08537, z: -0.050859645}
+      rotation: {x: 0.06526257, y: 0.7083382, z: 0.69746673, w: 0.08682158}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_ShoulderXformReverter_R
+      parentName: FatGuy_ScapulaXformInverter_R
+      position: {x: -0.08623822, y: 6.217249e-17, z: -2.842171e-16}
+      rotation: {x: 0.5189945, y: -0.30122545, z: 0.24301225, w: 0.7621371}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_ShoulderXformInverter_L
+      parentName: FatGuy_TwistSystem
+      position: {x: -0.21605417, y: 1.0669525, z: -0.04810337}
+      rotation: {x: 0.07617557, y: -0.16538158, z: 0.85981977, w: -0.47702852}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_ElbowXformReverter_L
+      parentName: FatGuy_ShoulderXformInverter_L
+      position: {x: 0.27677482, y: -7.105427e-16, z: -3.5527135e-16}
+      rotation: {x: 0, y: -0, z: -0.14138004, w: 0.9899554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_ShoulderXformInverter_R
+      parentName: FatGuy_TwistSystem
+      position: {x: 0.21605417, y: 1.0669525, z: -0.048103373}
+      rotation: {x: 0.47702852, y: 0.85981977, z: 0.16538158, w: 0.07617556}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_ElbowXformReverter_R
+      parentName: FatGuy_ShoulderXformInverter_R
+      position: {x: -0.27677482, y: 1.4210854e-16, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0.14138004, w: 0.9899554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_Skeleton
+      parentName: Group
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_Root_M
+      parentName: FatGuy_Skeleton
+      position: {x: 6.717581e-17, y: 0.48091415, z: 0.02147831}
+      rotation: {x: 0.47793847, y: -0.5211284, z: -0.47793847, w: 0.5211285}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: FatGuy_Hip_L
+      parentName: FatGuy_Root_M
+      position: {x: 0.015929459, y: -0.0121743595, z: 0.10996779}
+      rotation: {x: -0.9503045, y: 0.09761296, z: -0.11039305, w: 0.27423784}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999999}
+    - name: FatGuy_HipPart1_L
+      parentName: FatGuy_Hip_L
+      position: {x: 0.06595262, y: 1.2434498e-16, z: 1.1621001e-10}
+      rotation: {x: -0, y: 0.000000009313225, z: -0.0000000074505797, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: FatGuy_HipPart2_L
+      parentName: FatGuy_HipPart1_L
+      position: {x: 0.06595262, y: 1.2434498e-16, z: 1.1621001e-10}
+      rotation: {x: 0.00000017881392, y: -0.000000039115545, z: 0.00000009685753, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: FatGuy_Knee_L
+      parentName: FatGuy_HipPart2_L
+      position: {x: 0.06595262, y: 2.1316282e-16, z: 1.1621006e-10}
+      rotation: {x: -0.00000008550528, y: 0.00000007742906, z: 0.100525536, w: 0.9949345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_Ankle_L
+      parentName: FatGuy_Knee_L
+      position: {x: 0.20284496, y: -4.4408918e-17, z: 0.0000000015661344}
+      rotation: {x: -0.19251083, y: -0.0846271, z: -0.1443923, w: 0.9669171}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000002}
+    - name: FatGuy_Toes_L
+      parentName: FatGuy_Ankle_L
+      position: {x: 0.053942457, y: -0.11592159, z: -0.0000000010297576}
+      rotation: {x: 0.23739809, y: 0.26541367, z: 0.63056123, w: -0.68963057}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: FatGuy_ToesEnd_L
+      parentName: FatGuy_Toes_L
+      position: {x: 0.10719488, y: -4.440892e-18, z: -3.5527136e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: FatGuy_Hip_R
+      parentName: FatGuy_Root_M
+      position: {x: 0.015929459, y: -0.0121743595, z: -0.10996779}
+      rotation: {x: 0.097613044, y: 0.95030457, z: -0.27423787, w: -0.11039297}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000004}
+    - name: FatGuy_HipPart1_R
+      parentName: FatGuy_Hip_R
+      position: {x: -0.06595262, y: -8.8817837e-17, z: -7.105427e-17}
+      rotation: {x: -0, y: -0, z: 0.0000000074505797, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000005}
+    - name: FatGuy_HipPart2_R
+      parentName: FatGuy_HipPart1_R
+      position: {x: -0.06595262, y: -8.8817837e-17, z: -7.105427e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000005}
+    - name: FatGuy_Knee_R
+      parentName: FatGuy_HipPart2_R
+      position: {x: -0.06595262, y: -1.7763567e-16, z: -2.4868996e-16}
+      rotation: {x: -0.000000025145706, y: 1.8735008e-16, z: 0.100525536, w: 0.9949345}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000007}
+    - name: FatGuy_Ankle_R
+      parentName: FatGuy_Knee_R
+      position: {x: -0.20284496, y: 9.7699626e-17, z: -2.0584938e-11}
+      rotation: {x: -0.1925108, y: -0.08462713, z: -0.14439216, w: 0.96691716}
+      scale: {x: 0.9999998, y: 1.0000002, z: 0.99999994}
+    - name: FatGuy_Toes_R
+      parentName: FatGuy_Ankle_R
+      position: {x: -0.053942457, y: 0.11592159, z: -4.1283935e-10}
+      rotation: {x: -0.23739819, y: -0.2654136, z: -0.63056123, w: 0.68963057}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1}
+    - name: FatGuy_ToesEnd_R
+      parentName: FatGuy_Toes_R
+      position: {x: -0.10719488, y: 0, z: 7.105427e-17}
+      rotation: {x: -0.000000014901159, y: 0.000000014901159, z: -0.00000002235174, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: FatGuy_RootPart1_M
+      parentName: FatGuy_Root_M
+      position: {x: -0.08285404, y: 1.7763568e-17, z: 1.6491525e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: FatGuy_RootPart2_M
+      parentName: FatGuy_RootPart1_M
+      position: {x: -0.08285404, y: 3.5527136e-17, z: -1.9057679e-18}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: FatGuy_Spine1_M
+      parentName: FatGuy_RootPart2_M
+      position: {x: -0.08285404, y: -1.7763568e-17, z: -4.251189e-17}
+      rotation: {x: 0.000000029802319, y: -0.000000059604638, z: 0.15956546, w: 0.9871874}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: FatGuy_Spine1Part1_M
+      parentName: FatGuy_Spine1_M
+      position: {x: -0.10729253, y: 2.1316282e-16, z: 1.2639204e-17}
+      rotation: {x: -0, y: -0, z: -0.000000014901156, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: FatGuy_Spine1Part2_M
+      parentName: FatGuy_Spine1Part1_M
+      position: {x: -0.10729253, y: -1.4210854e-16, z: 1.2639204e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: FatGuy_Chest_M
+      parentName: FatGuy_Spine1Part2_M
+      position: {x: -0.10729253, y: 1.4210854e-16, z: -2.0988069e-17}
+      rotation: {x: -0.000000029651137, y: 0.00000005967999, z: -0.15706259, w: 0.9875887}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: FatGuy_Neck_M
+      parentName: FatGuy_Chest_M
+      position: {x: -0.1115052, y: 3.5527136e-17, z: 3.7076241e-16}
+      rotation: {x: 1.5108803e-10, y: 0.00000005960445, z: 0.20458414, w: -0.978849}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999998}
+    - name: FatGuy_NeckPart1_M
+      parentName: FatGuy_Neck_M
+      position: {x: -0.030891608, y: -7.105427e-17, z: -2.1590416e-19}
+      rotation: {x: -0, y: -0, z: -9.005519e-18, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: FatGuy_NeckPart2_M
+      parentName: FatGuy_NeckPart1_M
+      position: {x: -0.030891608, y: 7.105427e-17, z: -2.1590416e-19}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: FatGuy_Head_M
+      parentName: FatGuy_NeckPart2_M
+      position: {x: -0.030891608, y: 2.1316282e-16, z: -1.0348705e-17}
+      rotation: {x: 0.00000003262479, y: 0.000000036384314, z: 0.1594269, w: 0.98720974}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: FatGuy_HeadEnd_M
+      parentName: FatGuy_Head_M
+      position: {x: -0.18488842, y: 1.5543122e-16, z: 3.381586e-17}
+      rotation: {x: -0, y: -0, z: -1.1870306e-15, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: FatGuy_Scapula_L
+      parentName: FatGuy_Chest_M
+      position: {x: -0.060867846, y: 0.0066961795, z: 0.13185069}
+      rotation: {x: 0.7788713, y: -0.019416861, z: 0.6259605, w: 0.0339996}
+      scale: {x: 0.9999997, y: 0.99999946, z: 0.99999946}
+    - name: FatGuy_Shoulder_L
+      parentName: FatGuy_Scapula_L
+      position: {x: 0.08623822, y: 6.661338e-17, z: -4.2632563e-16}
+      rotation: {x: 0.55621046, y: -0.022581868, z: 0.040541023, w: 0.82974476}
+      scale: {x: 1.0000004, y: 1.0000002, z: 0.9999998}
+    - name: FatGuy_ShoulderPart1_L
+      parentName: FatGuy_Shoulder_L
+      position: {x: 0.09225827, y: -2.842171e-16, z: -1.4210854e-16}
+      rotation: {x: -0, y: 0.038564302, z: -0.1061826, w: 0.9935986}
+      scale: {x: 1.0000004, y: 1.0000002, z: 0.99999994}
+    - name: FatGuy_ShoulderPart2_L
+      parentName: FatGuy_ShoulderPart1_L
+      position: {x: 0.09225827, y: -2.842171e-16, z: -1.4210854e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: FatGuy_Elbow_L
+      parentName: FatGuy_ShoulderPart2_L
+      position: {x: 0.09225827, y: 0, z: 7.105427e-17}
+      rotation: {x: 0.0011367697, y: 0.007961424, z: -0.071846984, w: 0.99738324}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: FatGuy_ElbowPart1_L
+      parentName: FatGuy_Elbow_L
+      position: {x: 0.07873404, y: 0, z: 0}
+      rotation: {x: -0, y: 3.5527128e-15, z: -2.6645342e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_ElbowPart2_L
+      parentName: FatGuy_ElbowPart1_L
+      position: {x: 0.07873404, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: FatGuy_Wrist_L
+      parentName: FatGuy_ElbowPart2_L
+      position: {x: 0.07873404, y: 1.4210854e-16, z: 7.105427e-17}
+      rotation: {x: -0.5754469, y: 0.0111527275, z: -0.08000444, w: 0.8138402}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: FatGuy_Cup_L
+      parentName: FatGuy_Wrist_L
+      position: {x: 0.015825247, y: 0.008609914, z: 0.0036348547}
+      rotation: {x: 0.23767006, y: 0.018391738, z: 0.023797605, w: 0.97088027}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: FatGuy_PinkyFinger1_L
+      parentName: FatGuy_Cup_L
+      position: {x: 0.08792828, y: 0.0407182, z: -0.015437795}
+      rotation: {x: 0.2724975, y: 0.08508221, z: -0.061114777, w: -0.9564367}
+      scale: {x: 1, y: 1.0000006, z: 1}
+    - name: FatGuy_PinkyFinger2_L
+      parentName: FatGuy_PinkyFinger1_L
+      position: {x: 0.046151794, y: 1.3322676e-17, z: -9.947598e-16}
+      rotation: {x: 0.008291511, y: -0.030692227, z: 0.0054496103, w: 0.9994797}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999998}
+    - name: FatGuy_PinkyFinger3_L
+      parentName: FatGuy_PinkyFinger2_L
+      position: {x: 0.032094803, y: 1.7763568e-17, z: 2.1316282e-16}
+      rotation: {x: 0.013658984, y: 0.03054225, z: 0.01997883, w: 0.9992405}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000006}
+    - name: FatGuy_PinkyFinger4_L
+      parentName: FatGuy_PinkyFinger3_L
+      position: {x: 0.02215204, y: 7.105427e-17, z: -1.4210854e-16}
+      rotation: {x: 0.0000000167638, y: 0.0000000167638, z: 0.00000008958155, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: FatGuy_RingFinger1_L
+      parentName: FatGuy_Cup_L
+      position: {x: 0.11717127, y: 0.014267281, z: -0.0069683897}
+      rotation: {x: 0.25000694, y: 0.08138587, z: -0.063120656, w: -0.9627506}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.0000002}
+    - name: FatGuy_RingFinger2_L
+      parentName: FatGuy_RingFinger1_L
+      position: {x: 0.04263636, y: 5.0967447e-10, z: 4.2632563e-16}
+      rotation: {x: -0.002254694, y: 0.00913899, z: -0.037524078, w: 0.9992515}
+      scale: {x: 0.9999996, y: 0.99999994, z: 0.9999998}
+    - name: FatGuy_RingFinger3_L
+      parentName: FatGuy_RingFinger2_L
+      position: {x: 0.03928317, y: 3.1782005e-10, z: -4.2632563e-16}
+      rotation: {x: 0.0055306107, y: 0.030001005, z: 0.028401157, w: 0.999131}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+    - name: FatGuy_RingFinger4_L
+      parentName: FatGuy_RingFinger3_L
+      position: {x: 0.02388671, y: 5.3290704e-17, z: -1.4210854e-16}
+      rotation: {x: -0, y: -0, z: -2.1827858e-10, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: FatGuy_IndexFinger1_L
+      parentName: FatGuy_Wrist_L
+      position: {x: 0.13807906, y: -0.035411995, z: 0.012067773}
+      rotation: {x: -0.0036762934, y: 0.08497772, z: -0.06905825, w: -0.99398}
+      scale: {x: 0.9999996, y: 1.0000001, z: 0.9999998}
+    - name: FatGuy_IndexFinger2_L
+      parentName: FatGuy_IndexFinger1_L
+      position: {x: 0.04422942, y: -3.9968027e-17, z: -1.4210854e-16}
+      rotation: {x: -0.012538394, y: -0.028133206, z: 0.0074961935, w: 0.9994974}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999998}
+    - name: FatGuy_IndexFinger3_L
+      parentName: FatGuy_IndexFinger2_L
+      position: {x: 0.033803068, y: 3.5527136e-17, z: 9.947598e-16}
+      rotation: {x: -0.030612787, y: -0.02706286, z: 0.03126386, w: 0.99867564}
+      scale: {x: 1, y: 0.9999998, z: 1.0000001}
+    - name: FatGuy_IndexFinger4_L
+      parentName: FatGuy_IndexFinger3_L
+      position: {x: 0.030767292, y: 1.7763568e-17, z: -2.842171e-16}
+      rotation: {x: -0, y: -0, z: 0.0000000014551909, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: FatGuy_MiddleFinger1_L
+      parentName: FatGuy_Wrist_L
+      position: {x: 0.1481867, y: 8.8817837e-17, z: -4.2632563e-16}
+      rotation: {x: 0.011192348, y: 0.08812696, z: -0.06036397, w: -0.9942156}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1}
+    - name: FatGuy_MiddleFinger2_L
+      parentName: FatGuy_MiddleFinger1_L
+      position: {x: 0.041484274, y: 7.105427e-17, z: 4.2632563e-16}
+      rotation: {x: 0.0014896815, y: 0.007829068, z: -0.0020958537, w: 0.9999661}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: FatGuy_MiddleFinger3_L
+      parentName: FatGuy_MiddleFinger2_L
+      position: {x: 0.040415812, y: -5.3290704e-17, z: -1.4210854e-16}
+      rotation: {x: 0.00043474484, y: -0.00024724464, z: -0.0065123877, w: 0.9999787}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: FatGuy_MiddleFinger4_L
+      parentName: FatGuy_MiddleFinger3_L
+      position: {x: 0.029933395, y: -2.4868996e-16, z: -1.4210854e-16}
+      rotation: {x: 0.00000004464525, y: 0.00000007392369, z: 0.00000003993547, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: FatGuy_ThumbFinger1_L
+      parentName: FatGuy_Wrist_L
+      position: {x: 0.049518455, y: -0.05222439, z: -0.007910038}
+      rotation: {x: 0.36178496, y: -0.06408247, z: 0.36438355, w: -0.85570425}
+      scale: {x: 1.0000007, y: 1.0000001, z: 1.0000001}
+    - name: FatGuy_ThumbFinger2_L
+      parentName: FatGuy_ThumbFinger1_L
+      position: {x: 0.04598712, y: 4.2632563e-16, z: -1.4210854e-16}
+      rotation: {x: 0.0023141792, y: 0.03274942, z: 0.025198417, w: 0.99914324}
+      scale: {x: 1, y: 1.0000002, z: 1.0000006}
+    - name: FatGuy_ThumbFinger3_L
+      parentName: FatGuy_ThumbFinger2_L
+      position: {x: 0.03705699, y: -1.4210854e-16, z: -2.4868996e-16}
+      rotation: {x: 0.0019877919, y: 0.015272034, z: 0.037954435, w: 0.9991608}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: FatGuy_ThumbFinger4_L
+      parentName: FatGuy_ThumbFinger3_L
+      position: {x: 0.021353679, y: -2.1316282e-16, z: -7.105427e-17}
+      rotation: {x: -0, y: -0, z: -2.4556346e-10, w: 1}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1}
+    - name: FatGuy_Scapula_R
+      parentName: FatGuy_Chest_M
+      position: {x: -0.060867846, y: 0.0066961795, z: -0.13185069}
+      rotation: {x: 0.019416783, y: 0.77887136, z: 0.033999667, w: -0.62596047}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.99999946}
+    - name: FatGuy_Shoulder_R
+      parentName: FatGuy_Scapula_R
+      position: {x: -0.08624325, y: -0.0000047097, z: 0.000008925801}
+      rotation: {x: 0.5562103, y: -0.022581927, z: 0.040541124, w: 0.82974494}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000001}
+    - name: FatGuy_ShoulderPart1_R
+      parentName: FatGuy_Shoulder_R
+      position: {x: -0.09225827, y: 1.4210854e-16, z: 7.105427e-17}
+      rotation: {x: 0.000000029802315, y: 0.038564257, z: -0.10618271, w: 0.9935986}
+      scale: {x: 1.0000004, y: 1, z: 1.0000004}
+    - name: FatGuy_ShoulderPart2_R
+      parentName: FatGuy_ShoulderPart1_R
+      position: {x: -0.09225827, y: 1.4210854e-16, z: 7.105427e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: FatGuy_Elbow_R
+      parentName: FatGuy_ShoulderPart2_R
+      position: {x: -0.09225827, y: 0, z: -2.1316282e-16}
+      rotation: {x: 0.001136828, y: 0.007961565, z: -0.07184742, w: 0.99738324}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: FatGuy_ElbowPart1_R
+      parentName: FatGuy_Elbow_R
+      position: {x: -0.07873404, y: -2.842171e-16, z: -7.105427e-17}
+      rotation: {x: 7.1054257e-15, y: -0, z: -5.329069e-15, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: FatGuy_ElbowPart2_R
+      parentName: FatGuy_ElbowPart1_R
+      position: {x: -0.07873404, y: -2.842171e-16, z: -7.105427e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: FatGuy_Wrist_R
+      parentName: FatGuy_ElbowPart2_R
+      position: {x: -0.07873404, y: 2.842171e-16, z: 0}
+      rotation: {x: -0.57544696, y: 0.011152627, z: -0.08000429, w: 0.81384015}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: FatGuy_Cup_R
+      parentName: FatGuy_Wrist_R
+      position: {x: -0.015825247, y: -0.008609914, z: -0.0036348547}
+      rotation: {x: 0.23767018, y: 0.018391775, z: 0.023797493, w: 0.97088015}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: FatGuy_PinkyFinger1_R
+      parentName: FatGuy_Cup_R
+      position: {x: -0.08792828, y: -0.0407182, z: 0.015437795}
+      rotation: {x: -0.27249756, y: -0.08508318, z: 0.061115444, w: 0.9564366}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000006}
+    - name: FatGuy_PinkyFinger2_R
+      parentName: FatGuy_PinkyFinger1_R
+      position: {x: -0.046151794, y: 7.3274716e-17, z: 5.684342e-16}
+      rotation: {x: 0.008291393, y: -0.030692171, z: 0.0054496448, w: 0.99947965}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: FatGuy_PinkyFinger3_R
+      parentName: FatGuy_PinkyFinger2_R
+      position: {x: -0.032094803, y: 2.2204459e-17, z: -3.5527135e-16}
+      rotation: {x: 0.013659063, y: 0.030542266, z: 0.019978885, w: 0.99924046}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FatGuy_PinkyFinger4_R
+      parentName: FatGuy_PinkyFinger3_R
+      position: {x: -0.02215204, y: -1.0658141e-16, z: 1.4210854e-16}
+      rotation: {x: -9.3132235e-10, y: -0, z: -2.6193442e-10, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: FatGuy_RingFinger1_R
+      parentName: FatGuy_Cup_R
+      position: {x: -0.11717127, y: -0.014267281, z: 0.0069683897}
+      rotation: {x: -0.25000703, y: -0.08138584, z: 0.06312082, w: 0.96275055}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000008}
+    - name: FatGuy_RingFinger2_R
+      parentName: FatGuy_RingFinger1_R
+      position: {x: -0.04263636, y: -5.3290704e-17, z: -4.2632563e-16}
+      rotation: {x: -0.0022546647, y: 0.0091387695, z: -0.037524212, w: 0.9992514}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: FatGuy_RingFinger3_R
+      parentName: FatGuy_RingFinger2_R
+      position: {x: -0.03928317, y: -5.3290704e-17, z: -1.4210854e-16}
+      rotation: {x: 0.0055305148, y: 0.030002752, z: 0.028403196, w: 0.9991309}
+      scale: {x: 1.0000006, y: 0.99999994, z: 1.0000004}
+    - name: FatGuy_RingFinger4_R
+      parentName: FatGuy_RingFinger3_R
+      position: {x: -0.02388671, y: -5.3290704e-17, z: 1.4210854e-16}
+      rotation: {x: -0, y: -0, z: 8.876665e-10, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: FatGuy_IndexFinger1_R
+      parentName: FatGuy_Wrist_R
+      position: {x: -0.13807906, y: 0.035411995, z: -0.012067773}
+      rotation: {x: 0.0036766217, y: -0.08497721, z: 0.0690581, w: 0.99398005}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: FatGuy_IndexFinger2_R
+      parentName: FatGuy_IndexFinger1_R
+      position: {x: -0.04422942, y: 7.3274716e-17, z: -2.842171e-16}
+      rotation: {x: -0.012538501, y: -0.028133206, z: 0.0074962876, w: 0.9994975}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: FatGuy_IndexFinger3_R
+      parentName: FatGuy_IndexFinger2_R
+      position: {x: -0.033803068, y: -2.2204459e-17, z: -9.947598e-16}
+      rotation: {x: -0.030612491, y: -0.027060866, z: 0.031261824, w: 0.9986758}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000002}
+    - name: FatGuy_IndexFinger4_R
+      parentName: FatGuy_IndexFinger3_R
+      position: {x: -0.030767292, y: -8.881784e-18, z: 5.684342e-16}
+      rotation: {x: -0, y: -0, z: 0.0000000013387758, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: FatGuy_MiddleFinger1_R
+      parentName: FatGuy_Wrist_R
+      position: {x: -0.1481867, y: -5.3290704e-17, z: 4.2632563e-16}
+      rotation: {x: -0.011192109, y: -0.088127315, z: 0.06036388, w: 0.9942156}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1.0000004}
+    - name: FatGuy_MiddleFinger2_R
+      parentName: FatGuy_MiddleFinger1_R
+      position: {x: -0.041484274, y: -3.5527136e-17, z: -9.947598e-16}
+      rotation: {x: 0.0014896328, y: 0.0078291595, z: -0.0020958318, w: 0.9999661}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: FatGuy_MiddleFinger3_R
+      parentName: FatGuy_MiddleFinger2_R
+      position: {x: -0.040415812, y: 1.1546319e-16, z: 4.2632563e-16}
+      rotation: {x: 0.00043482948, y: -0.00024724557, z: -0.006512445, w: 0.9999787}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: FatGuy_MiddleFinger4_R
+      parentName: FatGuy_MiddleFinger3_R
+      position: {x: -0.029933395, y: 2.5757173e-16, z: 1.4210854e-16}
+      rotation: {x: -0, y: -0, z: -5.805842e-11, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: FatGuy_ThumbFinger1_R
+      parentName: FatGuy_Wrist_R
+      position: {x: -0.049518455, y: 0.05222439, z: 0.007910038}
+      rotation: {x: -0.36178482, y: 0.06408265, z: -0.36438358, w: 0.8557043}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: FatGuy_ThumbFinger2_R
+      parentName: FatGuy_ThumbFinger1_R
+      position: {x: -0.04598712, y: -2.1316282e-16, z: 2.1316282e-16}
+      rotation: {x: 0.0023140595, y: 0.03275289, z: 0.025201108, w: 0.9991431}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: FatGuy_ThumbFinger3_R
+      parentName: FatGuy_ThumbFinger2_R
+      position: {x: -0.03705699, y: 1.4210854e-16, z: 2.1316282e-16}
+      rotation: {x: 0.0019877818, y: 0.015272048, z: 0.0379546, w: 0.9991608}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000004}
+    - name: FatGuy_ThumbFinger4_R
+      parentName: FatGuy_ThumbFinger3_R
+      position: {x: -0.021353679, y: 1.4210854e-16, z: 0}
+      rotation: {x: -0, y: -0, z: -1.10958326e-10, w: 1}
+      scale: {x: 1.0000005, y: 1, z: 1.0000002}
+    - name: SK_fat_man
+      parentName: FBX_FatmanRig(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: da101bd0ac04112418f64e175ef8c536, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
